@@ -15,7 +15,7 @@ function Navbar() {
 
                 <div className='hidden md:flex md:gap-10'>
                     <div className='group'>
-                        <a href="" className='md:text-2xl font-medium' >About</a>
+                        <a href="#aboutDiv" className='md:text-2xl font-medium' >About</a>
                         <div className='relative left-[50%] w-0 h-0.5 bg-black transition-all duration-400 group-hover:w-full from-current group-hover:h-0.5 group-hover:left-0 rounded-4xl'></div>
                     </div>
                     <div className='group'>

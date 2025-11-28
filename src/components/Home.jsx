@@ -2,13 +2,14 @@ import React from 'react'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { FiGithub } from 'react-icons/fi'
 import profileImage from '../../src/assets/profileImg.png'
+import { SiGmail } from 'react-icons/si'
 
 function Home() {
     return (
         <>
             <div className='grid md:grid-cols-2 md:gap-40 md:mx-25 md:mt-30 mt-10'>
                 {/* info */}
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-center items-center md:ms-60'>
                     <div className=''>
                         <div className='text-center'>
                             <p className='text-lg font-medium '>HI, I'm</p>
@@ -23,13 +24,16 @@ function Home() {
                             <div></div>
                         </div>
 
-                        <div className='flex justify-center items-center md:gap-5 gap-2 mt-4'>
-                            <span className=' bg-black hover:bg-white transition p-3 rounded-full '>
+                        <div className='flex justify-center items-center md:gap-5 gap-2 mt-5'>
+                            <a href='' className=' bg-black hover:bg-white transition p-3 rounded-full '>
                                 <FaLinkedinIn className='relative text-white text-4xl cursor-pointer hover:text-black transition' />
-                            </span>
-                            <span className=' bg-black hover:bg-white p-3 rounded-full '>
+                            </a>
+                            <a href='' className=' bg-black hover:bg-white p-3 rounded-full '>
                                 <FiGithub className='relative text-white text-4xl cursor-pointer hover:text-black transition' />
-                            </span>
+                            </a>
+                            <a href='' className=' bg-black hover:bg-white p-3 rounded-full '>
+                                <SiGmail className='relative text-white text-4xl cursor-pointer hover:text-black transition' />
+                            </a>
                         </div>
                     </div>
                 </div>
