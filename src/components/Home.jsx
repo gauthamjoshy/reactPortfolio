@@ -3,6 +3,7 @@ import { FaLinkedinIn } from 'react-icons/fa'
 import { FiGithub } from 'react-icons/fi'
 import profileImage from '../../src/assets/profileImg.png'
 import { SiGmail } from 'react-icons/si'
+// import { a } from '../../documents/RESUME_ABIN'
 
 function Home() {
     return (
@@ -19,7 +20,7 @@ function Home() {
                         </div>
 
                         <div className='flex justify-center items-center md:gap-5 gap-2 mt-4'>
-                            <div className='text-black border w-fit py-3 px-4 rounded-3xl font-bold flex items-center cursor-pointer hover:text-white hover:bg-black transition'>Download CV</div>
+                            <a href='/documents/RESUME_ABIN.pdf' className='download text-black border w-fit py-3 px-4 rounded-3xl font-bold flex items-center cursor-pointer hover:text-white hover:bg-black transition'>Download CV</a>
                             <a href='#contact' className='text-white bg-black border w-fit py-3 px-4 rounded-3xl font-bold flex items-center cursor-pointer hover:text-black hover:bg-white transition'>Contact info</a>
                             <div></div>
                         </div>
@@ -31,7 +32,7 @@ function Home() {
                             <a href='https://github.com/gauthamjoshy' className=' bg-black hover:bg-white p-3 rounded-full '>
                                 <FiGithub className='relative text-white text-4xl cursor-pointer hover:text-black transition' />
                             </a>
-                            <a href='' className=' bg-black hover:bg-white p-3 rounded-full '>
+                            <a href='' className='relative bg-black hover:bg-white p-3 rounded-full '>
                                 <SiGmail className='relative text-white text-4xl cursor-pointer hover:text-black transition' />
                             </a>
                         </div>
