@@ -32,9 +32,15 @@ function Home() {
                             <a href='https://github.com/gauthamjoshy' className=' bg-black hover:bg-white p-3 rounded-full '>
                                 <FiGithub className='relative text-white text-4xl cursor-pointer hover:text-black transition' />
                             </a>
-                            <a href='' className='relative bg-black hover:bg-white p-3 rounded-full '>
+                            {/* <a href='' className='relative bg-black hover:bg-white p-3 rounded-full '>
                                 <SiGmail className='relative text-white text-4xl cursor-pointer hover:text-black transition' />
-                            </a>
+                            </a> */}
+                            <div className='relative mb-auto '>
+                                <p className='absolute flex items-center group gap-5 bg-black text-white p-3 rounded-full transition-all '>
+                                    <SiGmail className='text-4xl group-hover:rotate-45 transition-all duration-300' />
+                                    <span className='text-lg hidden group-hover:inline-block transition-all'>gauthamjoshy32@gmail.com</span>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
