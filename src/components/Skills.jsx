@@ -8,7 +8,7 @@ import { SiRedux } from 'react-icons/si'
 function Skills() {
     return (
         <>
-            <div className='md:my-30 md:mt-50 my-20'>
+            <div id='skills' className='md:my-30 md:mt-50 my-20'>
                 <div className='text-center'>
                     <h2 className='text-lg font-medium'>Explore My</h2>
                     <h1 className='text-5xl font-bold'>Skills</h1>

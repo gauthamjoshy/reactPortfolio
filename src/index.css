@@ -41,3 +41,9 @@
   animation-name: underlineAnimation;
   animation-duration: 1s;
 } */
+
+html{
+  scroll-behavior: smooth;
+}
+
+

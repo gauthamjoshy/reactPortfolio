@@ -5,7 +5,7 @@ import { FaUserGraduate } from 'react-icons/fa'
 function About() {
     return (
         <>
-            <div className='md:my-30 md:mt-50 my-20'>
+            <div id='about' className='md:my-30 md:mt-50 my-20'>
                 <div className='text-center'>
                     <h2 className='text-lg font-medium'>Get To Know More</h2>
                     <h1 className='text-5xl font-bold'>About Me</h1>
